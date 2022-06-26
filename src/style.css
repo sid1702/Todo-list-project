@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    display: flex;
+    height: 100%;
+}
+
+.sidebar{
+    background-color: rgb(16 75 75);
+    width:30%;
+    text-align: center;
+    color:white;
+    padding: 10px;
+}
+
+.sidebar h1{
+    margin-bottom: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input,textarea,button{
+    margin: 10px;
+    background-color: teal;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border:none;
+}
+
+button:hover{
+    background-color: rgb(1, 95, 95);
+}
+
+.editor{
+    background-color: rgb(72, 102, 102);
+    width:70%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.editorHeading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1 px solid black;
+}
+
+.editorHeading button{
+    background-color: #FF0000;
+}
+
+.editorHeading button:hover{
+    background-color: #992424;
+}
+
+::placeholder{
+    color: white;
+}
+
+.taskCard{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 20px;
+    color: white;
+    background-color: rgb(44, 43, 43);
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.edit-icon:hover {
+    color: yellow;
+}
+
+.delete-icon:hover{
+    color:#992424
+}
+
+.icons > *{
+    margin: 10px 0;
+}
+
+.icons button{
+    background-color: #4e9c4e;
+}
+
+.icons button:hover{
+    background-color: #3d7a3d;
+}
+
+.crossed-line {
+    text-decoration: line-through;
+}
